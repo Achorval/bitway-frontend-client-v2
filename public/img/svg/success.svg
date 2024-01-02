@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="63" fill="none" role="img"><style>
+    .circle {
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      animation: stroke 1s ease-out forwards;
+    }
+    .mark-star {
+      transform: scale(0);
+      transform-origin: center;
+      animation: zoom-in 400ms ease-out 150ms forwards;
+    }
+    @keyframes stroke {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes zoom-in{
+        to{
+          transform: scale(1)
+        }
+    }
+  </style><g fill="#41B661"><circle class="circle" cx="31" cy="31" r="28" stroke="#41B661" fill="none" stroke-width="4"></circle><path class="mark-star" d="m47.899 22.436-17.8 17.773-3.626 3.678-3.626-3.652 3.626-3.627 17.8-17.798 3.626 3.626Z"></path><path class="mark-star" d="m30.098 40.21-3.627 3.678-3.626-3.652-8.745-8.72 3.652-3.626 12.346 12.32ZM19.426 17.19l2.572-1.287 1.286-2.572 1.286 2.572 2.572 1.287-2.572 1.286-1.286 2.572-1.286-2.572-2.572-1.286ZM40.002 44.196l1.723-.848.849-1.724.849 1.724 1.723.848-1.723.85-.849 1.723-.849-1.724-1.723-.849Z"></path></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h62v62H0z" transform="translate(0 .302)"></path></clipPath></defs></svg>
+
+  <!-- <svg data-v-6b38f89b="" width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><circle data-v-6b38f89b="" cx="56" cy="56" r="56" fill="#E7FBF3"></circle><circle data-v-6b38f89b="" cx="56.44" cy="56.44" r="41.44" fill="#D0F7E7"></circle><circle data-v-6b38f89b="" cx="56" cy="56" r="28" fill="#00D67D"></circle><path data-v-6b38f89b="" fill-rule="evenodd" clip-rule="evenodd" d="M54.0175 62.7202C53.689 62.7202 53.3749 62.5818 53.15 62.338L47.363 56.054C46.912 55.5663 46.937 54.7982 47.4153 54.3396C47.8949 53.8809 48.6482 53.9052 49.0968 54.393L54.0056 59.7208L64.0111 48.5555C64.4561 48.0593 65.2082 48.0265 65.6937 48.4779C66.1781 48.9293 66.2114 49.6973 65.7687 50.1911L54.8957 62.3246C54.6732 62.5746 54.3566 62.7177 54.0258 62.7202H54.0175Z" fill="white"></path></svg> -->

@@ -128,7 +128,7 @@ const Contact = () => {
             <div className="padding40 box-rounded mb30 text-light">
               <h3>Help Desk</h3>
               <address className="s1">
-                <span><i className="fa fa-phone fa-lg"></i>+2348069936564</span>
+                <span><i className="fa fa-phone fa-lg"></i>+2347047200600</span>
                 <span><i className="fa fa-envelope-o fa-lg"></i><span className='btn'>support@bitway.ng</span></span>
               </address>
             </div>
@@ -147,7 +147,7 @@ const Contact = () => {
                             <span onClick={() => window.open('https://twitter.com/bitwayhq', '_blank', 'noopener,noreferrer')}><i className="fa fa-twitter fa-lg"></i></span>
                             <span onClick={() => window.open('https://instagram.com/bitwayhq', '_blank', 'noopener,noreferrer')}><i className="fa fa-instagram fa-lg"></i></span>
                             <span onClick={() => window.open("https://www.linkedin.com/in/bitway", "_blank", 'noopener,noreferrer')}><i className="fa fa-linkedin fa-lg"></i></span>
-                            <span onClick={() => window.open("http://wa.me/2348069936564", "_blank", 'noopener,noreferrer')}><i className="fa fa-whatsapp fa-lg"></i></span>
+                            <span onClick={() => window.open("http://wa.me/2347047200600", "_blank", 'noopener,noreferrer')}><i className="fa fa-whatsapp fa-lg"></i></span>
                           </div>
                         </div>
                       </div>

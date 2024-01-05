@@ -82,7 +82,7 @@ const Footer= () => {
                                         <span onClick={() => window.open('https://twitter.com/bitwayhq', '_blank', 'noopener,noreferrer')}><i className="fa fa-twitter fa-lg"></i></span>
                                         <span onClick={() => window.open('https://instagram.com/bitwayhq', '_blank', 'noopener,noreferrer')}><i className="fa fa-instagram fa-lg"></i></span>
                                         <span onClick={() => window.open("https://www.linkedin.com/in/bitway", "_blank", 'noopener,noreferrer')}><i className="fa fa-linkedin fa-lg"></i></span>
-                                        <span onClick={() => window.open("http://wa.me/2348069936564", "_blank", 'noopener,noreferrer')}><i className="fa fa-whatsapp fa-lg"></i></span>
+                                        <span onClick={() => window.open("http://wa.me/2347047200600", "_blank", 'noopener,noreferrer')}><i className="fa fa-whatsapp fa-lg"></i></span>
                                     </div>
                                 </div>
                             </div>

@@ -356,9 +356,9 @@ const Dashboard = () => {
           </div>
         </div>
       </section>  
-      <BuyCrypto openBuyCrypto={openBuyCrypto} setOpenBuyCrypto={setOpenBuyCrypto} />
-      <SellCrypto openSellCrypto={openSellCrypto} setOpenSellCrypto={setOpenSellCrypto} />
-      <Withdrawal openWithdrawal={openWithdrawal} setOpenWithdrawal={setOpenWithdrawal} />
+      {openBuyCrypto && <BuyCrypto openBuyCrypto={openBuyCrypto} setOpenBuyCrypto={setOpenBuyCrypto} />}
+      {openSellCrypto && <SellCrypto openSellCrypto={openSellCrypto} setOpenSellCrypto={setOpenSellCrypto} />}
+      {openWithdrawal && <Withdrawal openWithdrawal={openWithdrawal} setOpenWithdrawal={setOpenWithdrawal} />}
       {showVerification && <BvnVerification authUser={authUser} />}
     </div>
   )

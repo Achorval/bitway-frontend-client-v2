@@ -12,7 +12,7 @@ const Withdrawal = ({openWithdrawal, setOpenWithdrawal}) => {
 
   useEffect(() => {
     async function getBankAccounts() {
-      return request(`${process.env.REACT_APP_API_URL}/bank/accounts`,{method: 'GET'}).then((res) => setBankAccounts(res.data));
+      return request(`${process.env.REACT_APP_API_URL}/bank/accounts`,{method: 'GET'}).then((res) => setBankAccounts(res.details));
     }
     if (openWithdrawal) {
       getBankAccounts();

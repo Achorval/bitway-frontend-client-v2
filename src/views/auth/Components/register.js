@@ -155,7 +155,7 @@ const Register= () => {
               {({ status, isSubmitting }) => {
               return (
                 <>
-                {status && status.success === 'error' && (
+                {status && status.success === 'Error' && (
                 <div className='mb-lg-15 alert alert-danger text-center'>
                   <div className='alert-text font-weight-bold'>{status.message}</div>
                 </div>)}

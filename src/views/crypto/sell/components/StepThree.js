@@ -66,12 +66,12 @@ function SecondStep() {
           <div className="detailcheckout mb-3">
             <div className="listcheckout">
               <div className="input-group">
-                <input type="text" className="form-control m-0" readOnly value={service === "Bitcoin" ? "3FUq8ZbTvTCiU2KWhENDv15mwzFhtnEuV2" : "TW3afMxcXFPAaTQwpwvugEi86eSPLsFUNr"} />
+                <input type="text" className="form-control m-0" readOnly value={service === "Bitcoin" ? "19Uh3WauV4d4kLRARcjjUJ4W5sJ9MREWW1" : "TXU4fWygpdeggByR4ZftDXmCkycNMEGsGJ"} />
                 <div className="input-group-append">
                   {service === "Bitcoin" ? 
-                  <button type="button" title="Copy Text" className="btn btn-primary p-2" onClick={() => copyToClipboard("3FUq8ZbTvTCiU2KWhENDv15mwzFhtnEuV2")}>Copy</button>
+                  <button type="button" title="Copy Text" className="btn btn-primary p-2" onClick={() => copyToClipboard("19Uh3WauV4d4kLRARcjjUJ4W5sJ9MREWW1")}>Copy</button>
                   :
-                  <button type="button" title="Copy Text" className="btn btn-primary p-2" onClick={() => copyToClipboard("TW3afMxcXFPAaTQwpwvugEi86eSPLsFUNr")}>Copy</button>
+                  <button type="button" title="Copy Text" className="btn btn-primary p-2" onClick={() => copyToClipboard("TXU4fWygpdeggByR4ZftDXmCkycNMEGsGJ")}>Copy</button>
                   }
                 </div>
               </div>

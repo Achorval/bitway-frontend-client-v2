@@ -12,7 +12,7 @@ const SellCrypto = ({openSellCrypto, setOpenSellCrypto}) => {
   const [amountToReceive, setAmountToReceive] = useState(0);
   const [activeStepIndex, setActiveStepIndex] = useState(0);
   const [formData, setFormData] = useState({});
-  const address = service === "Bitcoin" ? "3FUq8ZbTvTCiU2KWhENDv15mwzFhtnEuV2" : "TW3afMxcXFPAaTQwpwvugEi86eSPLsFUNr";
+  const address = service === "Bitcoin" ? "19Uh3WauV4d4kLRARcjjUJ4W5sJ9MREWW1" : "TXU4fWygpdeggByR4ZftDXmCkycNMEGsGJ";
 
   const RenderStep = () => {
     switch (activeStepIndex) {
